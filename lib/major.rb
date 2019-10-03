@@ -9,3 +9,5 @@ class Major
     end
 
 end
+
+

@@ -1,16 +1,31 @@
 require "pry"
 
 class Course
-    attr_accessor :course_name, :date_created, :date_updated, :course_rating, :course_discplines, :course_description, :course_level, :material_requirements, :course_link
+    attr_accessor :course_name, :date_created, :date_updated, :course_rating, :course_disciplines, :course_description, :course_level, :material_requirements, :course_link
 
     @@all = []
 
-    def initialize(course_hash)
-        course_hash.each { |key, value| self.send("#{key}=", value)}
+
+    def initialize(new_course)
+        new_course.each do |attribute, value|
+            self.send("#{attribute}=", value)
+        end
         @@all << self
+
     end
 
+    def self.all
+        @@all
+    end
 
-binding.pry
+    def self.mass_create_courses(course_hash)
+        course_hash.each do |course|
+            self.new(course)
+        end
+        binding.pry
+    end
+
 end
+ 
+Course.mass_create_courses(Scraper.retrieve_all_course_data)
 
