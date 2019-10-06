@@ -310,10 +310,10 @@ class Cli
         puts "\n"
         puts "To begin building the course enter 'build'"
         puts "To build your course with only the major requrements enter 'skinny'"
-        puts "To exit enter 'exit'"
+        puts "To go back to the main menu enter 'exit'"
         puts "\n"
         input = gets.chomp.downcase
-        while input != "exit"
+        while input != nil
             case input.downcase
             when "build"
                 puts "\n"
@@ -322,7 +322,7 @@ class Cli
                 puts "\n"
                 build_skinny
             when "exit"
-                goodbye
+                call
             end
         end
 
@@ -354,9 +354,8 @@ class Cli
     #     current_major.current_courses.each_with_index do |course, i|
     #         puts "  #{i + 1}.   #{course.name}"
     #     end
-
-
     # end
+    #  ----------------------> works. but very, very slowly.
 
     def build
         # allows users to build course into major
