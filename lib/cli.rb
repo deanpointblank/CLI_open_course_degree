@@ -587,7 +587,6 @@ class Cli
 
 end
 
-Cli.new
 
 
 
