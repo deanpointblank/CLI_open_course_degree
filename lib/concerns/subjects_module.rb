@@ -2,7 +2,8 @@ module Subjects
 
     ALL_SUBJECTS = ["Business", "Humanities", "Mathematics and Statistics", "Social Sciences", "Science"]
 
-    module Business
+
+    # Business
         def business_studies 
             {
             "business" => "https://www.merlot.org/merlot/materials.htm?category=2202&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
@@ -18,10 +19,8 @@ module Subjects
             "marketing" => "https://www.merlot.org/merlot/materials.htm?fromAdvancedSearch=true&keywords=&categoryBasic=2259&materialType=10&_audience=on&_audience=on&_audience=on&_audience=on&audience=4&_audience=on&audience=5&_audience=on&audience=6&_audience=on&_audience=on&_audience=on&_hasPeerReviews=on&_hasEditorReviews=on&_hasComments=on&_hasRatings=on&_hasAssignments=on&_hasCollections=on&_hasCourses=on&_hasSercActivitySheets=on&_hasAwards=on&_isContentBuilder=on&_hasEtextReviews=on&_hasAccessibilityForm=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_technicalFormat=on&_mobile=on&_mobile=on&_mobile=on&_mobile=on&ccOrZero=&cost=2&codeAvailable=&language=eng&cefr=&dateRange=0&days=7&createdSince=&createdBefore=&sort.property=overallRating"
             }
         end
-    end
-
     
-    module Humanities
+    # Humanities
         def humanities_studies 
             {
             "humanities" => "https://www.merlot.org/merlot/materials.htm?category=2327&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
@@ -40,13 +39,12 @@ module Subjects
             "jewish_studies" => "https://www.merlot.org/merlot/materials.htm?category=522942&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
             "philosophy" => "https://www.merlot.org/merlot/materials.htm?category=2438&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
             "religious_studies" => "https://www.merlot.org/merlot/materials.htm?category=2439&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
-            "women_and_ger_studies" => "https://www.merlot.org/merlot/materials.htm?category=525651&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
+            "women_and_gender_studies" => "https://www.merlot.org/merlot/materials.htm?category=525651&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
             "world_languages" => "https://www.merlot.org/merlot/materials.htm?category=2440&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1"
             }
         end
-    end
-
-    module Math
+    
+    # Math
         def mathematics_studies 
             {
             "mathematics"=> "https://www.merlot.org/merlot/materials.htm?category=2514&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
@@ -74,9 +72,9 @@ module Subjects
             "probability" => "https://www.merlot.org/merlot/materials.htm?category=2602&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1"
             }
         end
-    end
+    
 
-    module Social_science
+    # Social_science
         def social_sciences_studies 
             {
             "social_sciences" => "https://www.merlot.org/merlot/materials.htm?category=2787&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
@@ -93,9 +91,9 @@ module Subjects
             "statistics" => "https://www.merlot.org/merlot/materials.htm?category=2827&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1"
             }
         end
-    end    
+        
 
-    module Science
+    # Science
         def agiculture_and_environmental_sciences_studies 
             {
             "agiculture_and_environmental_sciences" => "https://www.merlot.org/merlot/materials.htm?category=2606&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
@@ -277,7 +275,6 @@ module Subjects
             "quantum_mechanics" => "https://www.merlot.org/merlot/materials.htm?category=2782&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1",
             "thermodynamics_and_statistical_mechanics" => "https://www.merlot.org/merlot/materials.htm?category=2783&hasAwards=false&hasComments=false&hasCourses=false&filterTypesOpen=false&dateRange=0&language=eng&hasEtextReviews=false&hasPeerReviews=false&fromContentBuilderSawDialog=false&fromAdvancedSearch=true&audience=4%2C5%2C6%2C7&cost=2&materialType=10&isLeadershipLibrary=false&hasCollections=false&filterOtherOpen=false&isContentBuilder=false&filterSubjectsOpen=true&hasAccessibilityForm=false&hasAssignments=false&filterPartnerAffiliationsOpen=true&hasRatings=false&hasSercActivitySheets=false&days=7&filterMobileOpen=false&sort.property=overallRating&hasEditorReviews=false&page=1"
             }
-        end    
-    end
+        end      
 
 end 
