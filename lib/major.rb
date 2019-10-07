@@ -37,40 +37,40 @@ class Major
         # @course_level.include?("College General Ed" || "College Lower Division")
     end
     
-    def freshman_courses
-        @freshman_courses = []
-    end
+    # def freshman_courses
+    #     @freshman_courses = []
+    # end
 
-    def sophomore_courses
-        @sophomore_courses = []
-    end
+    # def sophomore_courses
+    #     @sophomore_courses = []
+    # end
 
-    def junior_courses
-        @junior_courses = []
-    end
+    # def junior_courses
+    #     @junior_courses = []
+    # end
 
-    def senior_courses
-        @senior_courses = []
-    end
+    # def senior_courses
+    #     @senior_courses = []
+    # end
 
-    def all_courses
-        puts "freshman level courses: "
-        freshman_courses.each do |course|
-            puts course
-        end
-        puts "sophomore level courses: "
-        sophomore_courses.each do |course|
-            puts course
-        end
-        puts "junior level courses: "
-        junior_courses.each do |course|
-            puts course
-        end
-        puts "senior level courses: "
-        senior_courses.each do |course|
-            puts course
-        end
-    end
+    # def all_courses
+    #     puts "freshman level courses: "
+    #     freshman_courses.each do |course|
+    #         puts course
+    #     end
+    #     puts "sophomore level courses: "
+    #     sophomore_courses.each do |course|
+    #         puts course
+    #     end
+    #     puts "junior level courses: "
+    #     junior_courses.each do |course|
+    #         puts course
+    #     end
+    #     puts "senior level courses: "
+    #     senior_courses.each do |course|
+    #         puts course
+    #     end
+    # end
 
 end
 

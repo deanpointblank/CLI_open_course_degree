@@ -82,61 +82,6 @@ class Course
             puts "\n"
         end
     end
-
-    # def self.mass_random_load
-    #     3.times do 
-    #         self.get_rand_course(business_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(humanities_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(mathematics_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(statistics_and_probability_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(social_sciences_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(agiculture_and_environmental_sciences_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(biology_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(chemistry_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(communication_sciences_and_disorders_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(computer_science_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(engineering_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(geoscience_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(health_sciences_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(information_technology_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(kinesiology_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(nanotechnology_studies.keys.sample)
-    #     end
-    #     3.times do 
-    #         self.get_rand_course(physics_studies.keys.sample)
-    #     end
-    #     binding.pry
-    # end
         
  
 end

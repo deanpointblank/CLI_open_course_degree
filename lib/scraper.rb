@@ -79,39 +79,6 @@ class Scraper
         scraped_courses
     end
 
-    # def self.user_retrieve_all_course_data_by_discipline(subject)
-    #     agent = Mechanize.new
-    #     current_page = Nokogiri::HTML(open(subject))
-    #     crawl = agent.get(subject)
-    #     i = 0
-    #     scraped_courses = []
-    #     while i != 3 || current_page.css("li a.page-link")[7]
-    #         current_page = Nokogiri::HTML(open(subject))
-    #         crawl = agent.get(subject)
-    #         current_page.css("div .merlot-material-item").each do |course|
-    #             course_page = crawl.link_with(:href => course.css("div a")[0].values[0]).click
-    #             #binding.pry
-    #             scraped_courses << {
-    #                 :name => course.css('a')[0].text.strip.gsub(/(\n| )/,"_").gsub(/.*_{2,}/,""),
-    #                 :date_created => course.css("div dl dd")[2].text,
-    #                 #:date_updated => course.css("div dl dd")[3].text,
-    #                 #:course_rating => course.css("dd .sr-only").children[1].text,
-    #                 :course_disciplines => course_page.css(".list-small-mb li span").map {|discipline| discipline.children[1].text},
-    #                 :course_description => course_page.css("div .mb-3 p").text,
-    #                 :course_level => course_page.css("dd .noWrap a").map {|level| level.text},
-    #                 :material_requirements => course_page.css("div .detail-more-about dd")[8].text.strip,
-    #                 :course_link => crawl.link_with(:text => current_page.css("div .merlot-material-item a").text)
-    #             }
-    #         end
-    #         if current_page.css("li a.page-link")[7]
-    #             subject = crawl.link_with(:href => current_page.css("li a.page-link")[7].attribute("href").text).click.uri.to_s
-    #         else
-    #             break
-    #         end
-    #         i += 1
-    #     end
-    #     scraped_courses
-    # end
 
 end
 

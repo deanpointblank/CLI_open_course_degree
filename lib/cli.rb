@@ -543,7 +543,7 @@ class Cli
         while input != "exit"
         case input
         when "complete"
-            self.save
+            self.complete
         when "menu"
             self.call
         when "exit"
