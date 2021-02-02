@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "nokogiri"
-gem 'mechanize', '~> 2.7', '>= 2.7.5'
+gem 'mechanize', '~> 2.7'
 gem "pry"
 gem "require_all"
 
